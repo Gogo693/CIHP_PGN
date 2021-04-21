@@ -154,6 +154,7 @@ def read_edge_list(data_dir, data_id_list):
     for line in f:
         edge = line.strip("\n")
         edges.append(data_dir + '/edges/' + edge + '.png')
+        #edges.append(data_dir + '/edges/' + edge + '.jpg')
     return edges
 
 def read_images_from_disk(input_queue, input_size, random_scale, random_mirror=False): # optional pre-processing arguments
