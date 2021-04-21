@@ -20,9 +20,9 @@ N_CLASSES = 20
 #LIST_PATH = './datasets/CIHP/list/val.txt'
 #DATA_ID_LIST = './datasets/CIHP/list/val_id.txt'
 
-DATA_DIR = './datasets/vton_c'
-LIST_PATH = './datasets/vton_c/list/val.txt'
-DATA_ID_LIST = './datasets/vton_c/list/val_id.txt'
+DATA_DIR = './datasets/vton_p_train'
+LIST_PATH = './datasets/vton_p_train/list/val.txt'
+DATA_ID_LIST = './datasets/vton_p_train/list/val_id.txt'
 
 with open(DATA_ID_LIST, 'r') as f:
     NUM_STEPS = len(f.readlines()) 
