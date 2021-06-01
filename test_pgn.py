@@ -26,7 +26,7 @@ DATA_ID_LIST = './datasets/vton_p_train/list/val_id.txt'
 
 with open(DATA_ID_LIST, 'r') as f:
     NUM_STEPS = len(f.readlines()) 
-RESTORE_FROM = './checkpoint/CIHP_pgn'
+RESTORE_FROM = './checkpoint/'
 
 def main():
     """Create the model and start the evaluation process."""

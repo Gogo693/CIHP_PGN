@@ -4,7 +4,7 @@ import tensorflow as tf
 import os
 import scipy.misc
 from scipy.stats import multivariate_normal
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 n_classes = 20
 # colour map
